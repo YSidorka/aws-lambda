@@ -1,5 +1,5 @@
-import { handler } from 'lambda-get-products';
+import { handler } from './lambdaGetProducts/index.mjs';
 
-handler({}).then((res) => {
+handler().then((res) => {
   console.log(JSON.stringify(res));
 })
