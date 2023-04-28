@@ -1,4 +1,4 @@
-import { handler } from './lambdaGetProducts/index.mjs';
+import { handler } from 'lambda-get-products';
 
 handler().then((res) => {
   console.log(res);
