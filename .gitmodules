@@ -1,0 +1,3 @@
+[submodule "lambdaGetProducts"]
+	path = lambdaGetProducts
+	url = https://github.com/YSidorka/lambdaGetProducts.git
